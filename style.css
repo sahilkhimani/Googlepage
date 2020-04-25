@@ -1,0 +1,119 @@
+.buttons {
+    height: 70px;
+    padding-top: 18px;
+}
+.icon{
+    margin: 2.5%;
+    color: gray;
+}
+.buttons input[type="submit"]{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222
+}
+
+.buttons input[type="submit"]:focus {
+    border: 1px solid #4d90fe;
+    outline: none
+}
+
+img{
+    padding-top: 109px;
+}
+.searchbox:hover {  
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);}
+
+.search input[type="text"]:focus {
+    border: 1px solid #4d90fe;
+    outline: none
+}
+.search{
+    width : 100%;
+    border-radius: 25px;
+    padding : 1%;
+    border: none;
+
+}
+
+.sign{
+    display: inline-block;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: default;
+    border: 0;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 36px;
+    min-width: 32px;
+    padding: 0 16px;
+    vertical-align: middle;
+    margin-left : 5%;
+}
+
+.patti{
+    width : 97%;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-align: right;
+    margin-top: 2%;
+    
+}
+.grid{
+    width : 20px;
+    vertical-align: middle;
+    position: fixed;
+    padding : 6px 20px;
+    opacity: 0.5;
+}
+.links{
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    text-align: right;
+    margin-left : 1%;
+}
+.links:hover, .links:focus{
+    opacity: .85;
+    text-decoration: underline
+}
+.searchbox {
+
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 582px;
+}
+
+.search{
+    width : 98%;
+    border : none;
+}
